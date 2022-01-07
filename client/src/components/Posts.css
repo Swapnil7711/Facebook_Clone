@@ -81,6 +81,7 @@
   padding-left: 16px;
   padding-bottom: 16px;
   text-align: left;
+  color: black;
 }
 
 .post__statistic {
@@ -96,6 +97,7 @@
   display: flex;
   padding-top: -10px;
   font-size: 14px !important;
+  color: black !important;
 }
 
 .post__like__count > p {
@@ -113,6 +115,7 @@
 
 .post__statisticComments {
   font-size: 14px;
+  color: black !important;
 }
 
 .post__actionButtons {
