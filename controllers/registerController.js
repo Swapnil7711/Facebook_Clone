@@ -1,6 +1,6 @@
 import Joi from "joi"
 import { User } from "../models"
-import bcrypt from "bcrypt"
+import bcrypt from "bcryptjs"
 import CustomeErrorHandler from "../services/CustomErrorHandler"
 import jsonToken from "../services/jwtToken"
 import { refresh_tokenSecret } from "../config"
