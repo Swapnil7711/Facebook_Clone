@@ -16,6 +16,7 @@
 
 .sidebar__text {
   font-size: 0.9375rem;
+  opacity: 0;
 }
 
 .SidebarItems:hover {
@@ -28,6 +29,7 @@
 .rightItemCss {
   font-size: 0.8rem !important;
   font-weight: 600;
+  opacity: 0;
 }
 
 .extra__rightSidebar {
@@ -43,4 +45,5 @@
 .use__online > p {
   font-size: 15px;
   font-weight: 500;
+  opacity: 0;
 }
