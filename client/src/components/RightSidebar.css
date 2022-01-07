@@ -18,13 +18,13 @@
   color: black !important;
   font-weight: 700;
   margin-top: 10px;
-  opacity: 50%;
   margin-bottom: 5px;
 }
 .rightsidebar__yourpages {
   display: flex;
   flex-direction: column;
   width: 100%;
+  opacity: 0;
 }
 
 .rightsidebar__pagetitle {
@@ -53,7 +53,6 @@
 .title {
   font-size: 18px;
   font-weight: 600;
-  opacity: 50%;
 }
 
 .more {
