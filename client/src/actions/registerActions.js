@@ -16,7 +16,7 @@ export const registerUser = (formData) => async (dispatch, getState) => {
 
         // set localstorage items. set item in localstorage.
 
-        // localStorage.setItem('userInfo', JSON.stringify(getState().userLogin));
+        localStorage.setItem('userInfo', JSON.stringify(getState().userLogin));
 
 
     } catch (error) {
