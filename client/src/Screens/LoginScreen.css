@@ -1,0 +1,111 @@
+.login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-top: 10%;
+}
+
+.facebookInfo {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.facebookName {
+  font-size: 50px;
+  font-weight: 800;
+  color: #1a76f2;
+  margin-bottom: 15px;
+}
+
+.info {
+  font-size: 30px;
+  font-weight: 400;
+  overflow-wrap: wrap;
+}
+
+.facebookLogin {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 2px 2px 10px rgb(216, 205, 205);
+  border-radius: 10px;
+  width: 34%;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.logintext {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.email {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.loginButton {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #1a76f2;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.registerButton {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(18, 163, 18);
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.forgot {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.alignCenter {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}

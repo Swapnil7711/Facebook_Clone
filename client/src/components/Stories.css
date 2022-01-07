@@ -1,0 +1,78 @@
+.stories {
+  position: relative;
+  display: flex;
+  max-width: 100%;
+  justify-content: space-around;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  z-index: -1;
+}
+
+.moreArrow {
+  position: absolute !important;
+  font-size: 30px !important;
+  padding: 9px;
+  background-color: white;
+  border-radius: 50%;
+  right: -3.5%;
+  top: 36%;
+  font-weight: lighter;
+  color: rgb(109, 91, 91);
+}
+
+.story__create {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 110px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: contain;
+  margin-right: 5px;
+  box-shadow: 1px 1px 10px #d4c3c3;
+}
+
+.add__icon {
+  position: absolute;
+  color: white;
+  padding: 3px;
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+  font-size: 30px !important;
+  font-weight: 700;
+  background-color: rgb(66, 66, 248);
+  top: 55%;
+  left: 32%;
+  box-shadow: 2px 2px 15px #d4c3c3;
+}
+
+.story__imageCreate {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 65%;
+
+  border-radius: 5px;
+}
+
+.story__userNameCreate {
+  color: black;
+  text-align: center;
+  position: absolute;
+  font-weight: 700;
+  bottom: 3%;
+  left: 5%;
+  font-size: 15px;
+  font-weight: 700;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+@media only screen and (max-width: 760px) {
+  .story__create {
+    width: 100px;
+    height: 180px;
+  }
+}

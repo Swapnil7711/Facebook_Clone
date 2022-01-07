@@ -1,0 +1,56 @@
+.story {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 1px 1px 10px #d4c3c3;
+  width: 120px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: contain;
+  margin-right: 5px;
+}
+
+.story__image {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.story__profile {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 7%;
+  left: 10%;
+  border: 2px solid blueviolet;
+}
+
+.story__userName {
+  color: white;
+  position: absolute;
+  bottom: 6%;
+  left: 15%;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 760px) {
+  .hide__story {
+    display: none;
+  }
+
+  .story {
+    width: 100px;
+    height: 180px;
+  }
+
+  .story__image {
+    width: 100px;
+    height: 180px;
+  }
+}
