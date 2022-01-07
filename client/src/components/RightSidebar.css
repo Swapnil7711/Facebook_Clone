@@ -67,6 +67,7 @@
   flex-direction: column;
   margin-top: 10px;
   width: 90%;
+  color: black !important;
 }
 
 .page__items.hover {
