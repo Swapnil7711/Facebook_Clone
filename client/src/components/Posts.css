@@ -148,14 +148,13 @@
 
 .post__likeButton {
   font-size: 16px !important;
-  opacity: 50% !important;
+
   margin-right: 5px;
   margin-left: 5px;
   padding: 5px;
 }
 
 .post__commntButton {
-  opacity: 50% !important;
   margin-right: 5px;
   margin-left: 5px;
   padding: 5px;
@@ -163,7 +162,6 @@
 
 .post__likeText {
   font-size: 14px;
-  opacity: 60%;
 }
 
 .lesspadding {

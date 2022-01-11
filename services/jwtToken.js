@@ -2,7 +2,7 @@ import jwt from "jsonwebtoken"
 import { jwt_secret } from '../config'
 class jsonToken {
 
-    static sign(payload, secret = jwt_secret, expiry = '1h') {
+    static sign(payload, secret = jwt_secret, expiry = '1y') {
         return jwt.sign(payload, secret, { expiresIn: expiry })
     }
 
